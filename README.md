@@ -1,2 +1,2 @@
-# deprecated_libraries_example
-Demonstrates deprecated libraries for Drupal 8
+# Deprecated Libraries
+Demonstrates use of Contrib replacements for deprecated Core Asset Libraries.
