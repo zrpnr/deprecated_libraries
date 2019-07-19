@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Examples showing deprecated core asset libraries and contrib replacements.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function deprecated_libraries_theme() {
+  return [
+    'core_jquery_ui_accordion' => [
+      'template' => 'accordion',
+      'variables' => ['title' => NULL],
+    ],
+    'contrib_jquery_ui_accordion' => [
+      'template' => 'accordion',
+      'variables' => ['title' => NULL],
+    ],
+  ];
+}

@@ -1,0 +1,7 @@
+name: Deprecated Libraries Example
+description: Demonstrates use of Contrib replacements for deprecated Core Asset Libraries.
+type: module
+package: 'Example modules'
+core: 8.x
+dependencies:
+  - jquery_ui_accordion

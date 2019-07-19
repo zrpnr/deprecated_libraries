@@ -1,0 +1,23 @@
+deprecated_libraries.info:
+  path: '/deprecated'
+  defaults:
+    _title: 'Deprecated Libraries Example Information'
+    _controller: '\Drupal\deprecated_libraries\Controller\DeprecatedLibsController::description'
+  requirements:
+    _permission: 'access content'
+
+deprecated_libraries.core.jquery_ui_accordion:
+  path: '/deprecated/core_jquery_ui_accordion'
+  defaults:
+    _title: 'Core (Deprecated) - jQueryUI Accordion'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getCoreJqueryUIAccordion'
+  requirements:
+    _permission: 'access content'
+
+deprecated_libraries.contrib.jquery_ui_accordion:
+  path: '/deprecated/contrib_jquery_ui_accordion'
+  defaults:
+    _title: 'Contrib jQueryUI Accordion'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getContribJqueryUIAccordion'
+  requirements:
+    _permission: 'access content'

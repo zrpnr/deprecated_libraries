@@ -1,0 +1,11 @@
+core.jquery_ui_accordion:
+  js:
+    js/jquery_ui_accordion.js: {}
+  dependencies:
+    - core/jquery.ui.accordion
+
+contrib.jquery_ui_accordion:
+  js:
+    js/jquery_ui_accordion.js: {}
+  dependencies:
+    - jquery_ui_accordion/accordion

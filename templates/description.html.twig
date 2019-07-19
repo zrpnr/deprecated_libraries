@@ -1,0 +1,35 @@
+
+{% set jquery_ui_accordion_core = path('deprecated_libraries.core.jquery_ui_accordion') %}
+{% set jquery_ui_accordion_contrib = path('deprecated_libraries.contrib.jquery_ui_accordion') %}
+
+{% trans %}
+
+  <p>Drupal 8 has marked several libraries deprecated, which will be removed by Drupal 9.</p>
+  <p>This module provides examples of implementations of these libraries for core and using contrib replacements for comparison:</p>
+
+  <dl>
+    <dt>Core (deprecated libraries)</dt>
+    <dd>
+      <ol>
+        <li>
+          <p><a href={{ jquery_ui_accordion_core }}>An accordion-style section reveal effect</a>:
+            This demonstrates calling a jQuery UI function using Drupal rendering
+            system.
+        </li>
+      </ol>
+    </dd>
+  </dl>
+  <dl>
+    <dt>Contrib replacement libraries</dt>
+    <dd>
+      <ol>
+        <li>
+          <p><a href={{ jquery_ui_accordion_contrib }}>An accordion-style section reveal effect</a>:
+            This demonstrates calling a jQuery UI function using Drupal rendering
+            system.
+        </li>
+      </ol>
+    </dd>
+  </dl>
+
+{% endtrans %}
