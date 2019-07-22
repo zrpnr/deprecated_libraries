@@ -129,3 +129,15 @@ contrib.jquery_ui_spinner:
     js/jquery_ui_spinner.js: {}
   dependencies:
     - jquery_ui_spinner/spinner
+
+core.jquery_ui_tooltip:
+  js:
+    js/jquery_ui_tooltip.js: {}
+  dependencies:
+    - core/jquery.ui.tooltip
+
+contrib.jquery_ui_tooltip:
+  js:
+    js/jquery_ui_tooltip.js: {}
+  dependencies:
+    - jquery_ui_tooltip/tooltip

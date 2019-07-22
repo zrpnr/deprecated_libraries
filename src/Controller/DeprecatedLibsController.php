@@ -330,4 +330,38 @@ class DeprecatedLibsController {
     return $build;
   }
 
+  /*
+   * Core jQueryUI Tooltip asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getCoreJqueryUITooltip() {
+    $build['element'] = [
+      '#theme' => 'core_jquery_ui_tooltip',
+      '#title' => 'core/jquery.ui.tooltip',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/core.jquery_ui_tooltip';
+
+    return $build;
+  }
+
+  /*
+   * Contrib jQueryUI Tooltip asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getContribJqueryUITooltip() {
+    $build['element'] = [
+      '#theme' => 'contrib_jquery_ui_tooltip',
+      '#title' => 'jquery_ui_tooltip/tooltip',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/contrib.jquery_ui_tooltip';
+
+    return $build;
+  }
+
 }

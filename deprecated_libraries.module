@@ -82,5 +82,13 @@ function deprecated_libraries_theme() {
       'template' => 'spinner',
       'variables' => ['title' => NULL],
     ],
+    'core_jquery_ui_tooltip' => [
+      'template' => 'tooltip',
+      'variables' => ['title' => NULL],
+    ],
+    'contrib_jquery_ui_tooltip' => [
+      'template' => 'tooltip',
+      'variables' => ['title' => NULL],
+    ],
   ];
 }

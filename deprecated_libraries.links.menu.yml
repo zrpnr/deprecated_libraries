@@ -130,3 +130,18 @@ deprecated_libraries.contrib.jquery_ui_spinner:
   route_name: deprecated_libraries.contrib.jquery_ui_spinner
   parent: deprecated_libraries.info
   weight: 17
+
+deprecated_libraries.core.jquery_ui_tooltip:
+  title: Core (Deprecated) - jQuery UI Tooltip
+  description: Core Asset Library jQuery UI Tooltip demo.
+  route_name: deprecated_libraries.core.jquery_ui_tooltip
+  parent: deprecated_libraries.info
+  weight: 18
+
+deprecated_libraries.contrib.jquery_ui_tooltip:
+  title: Contrib - jQuery UI Tooltip
+  description: Contrib Asset Library jQuery UI Tooltip demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_tooltip
+  parent: deprecated_libraries.info
+  weight: 19
+

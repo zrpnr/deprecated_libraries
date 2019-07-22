@@ -13,3 +13,4 @@ dependencies:
   - jquery_ui_selectmenu
   - jquery_ui_slider
   - jquery_ui_spinner
+  - jquery_ui_tooltip
