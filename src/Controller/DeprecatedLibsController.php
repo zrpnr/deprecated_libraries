@@ -194,4 +194,38 @@ class DeprecatedLibsController {
     return $build;
   }
 
+  /*
+   * Core jQueryUI Selectable asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getCoreJqueryUISelectable() {
+    $build['element'] = [
+      '#theme' => 'core_jquery_ui_selectable',
+      '#title' => 'core/jquery.ui.selectable',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/core.jquery_ui_selectable';
+
+    return $build;
+  }
+
+  /*
+   * Contrib jQueryUI Selectable asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getContribJqueryUISelectable() {
+    $build['element'] = [
+      '#theme' => 'contrib_jquery_ui_selectable',
+      '#title' => 'jquery_ui_selectable/selectable',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/contrib.jquery_ui_selectable';
+
+    return $build;
+  }
+
 }

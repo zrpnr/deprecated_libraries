@@ -69,3 +69,21 @@ contrib.jquery_ui_progressbar:
     js/jquery_ui_progressbar.js: {}
   dependencies:
     - jquery_ui_progressbar/progressbar
+
+core.jquery_ui_selectable:
+  css:
+    component:
+      css/jquery_ui_selectable.css: {}
+  js:
+    js/jquery_ui_selectable.js: {}
+  dependencies:
+    - core/jquery.ui.selectable
+
+contrib.jquery_ui_selectable:
+  css:
+    component:
+      css/jquery_ui_selectable.css: {}
+  js:
+    js/jquery_ui_selectable.js: {}
+  dependencies:
+    - jquery_ui_selectable/selectable

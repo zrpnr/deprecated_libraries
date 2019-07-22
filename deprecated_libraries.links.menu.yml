@@ -74,3 +74,17 @@ deprecated_libraries.contrib.jquery_ui_progressbar:
   route_name: deprecated_libraries.contrib.jquery_ui_progressbar
   parent: deprecated_libraries.info
   weight: 9
+
+deprecated_libraries.core.jquery_ui_selectable:
+  title: Core (Deprecated) - jQuery UI Selectable
+  description: Core Asset Library jQuery UI Selectable demo.
+  route_name: deprecated_libraries.core.jquery_ui_selectable
+  parent: deprecated_libraries.info
+  weight: 10
+
+deprecated_libraries.contrib.jquery_ui_selectable:
+  title: Contrib - jQuery UI Selectable
+  description: Contrib Asset Library jQuery UI Selectable demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_selectable
+  parent: deprecated_libraries.info
+  weight: 11

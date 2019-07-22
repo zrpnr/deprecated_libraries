@@ -9,4 +9,4 @@ dependencies:
   - jquery_ui_controlgroup
   - jquery_ui_droppable
   - jquery_ui_progressbar
-
+  - jquery_ui_selectable
