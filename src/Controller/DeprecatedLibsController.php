@@ -92,4 +92,38 @@ class DeprecatedLibsController {
     return $build;
   }
 
+  /*
+   * Core jQueryUI Controlgroup asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getCoreJqueryUIControlgroup() {
+    $build['element'] = [
+      '#theme' => 'core_jquery_ui_controlgroup',
+      '#title' => 'core/jquery.ui.controlgroup',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/core.jquery_ui_controlgroup';
+
+    return $build;
+  }
+
+  /*
+   * Contrib jQueryUI Controlgroup asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getContribJqueryUIControlgroup() {
+    $build['element'] = [
+      '#theme' => 'contrib_jquery_ui_controlgroup',
+      '#title' => 'jquery_ui_controlgroup/controlgroup',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/contrib.jquery_ui_controlgroup';
+
+    return $build;
+  }
+
 }

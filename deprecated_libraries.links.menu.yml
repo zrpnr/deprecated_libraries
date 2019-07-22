@@ -33,3 +33,16 @@ deprecated_libraries.contrib.jquery_ui_checkboxradio:
   parent: deprecated_libraries.info
   weight: 3
 
+deprecated_libraries.core.jquery_ui_controlgroup:
+  title: Core (Deprecated) - jQuery UI Controlgroup
+  description: Core Asset Library jQuery UI Controlgroup demo.
+  route_name: deprecated_libraries.core.jquery_ui_controlgroup
+  parent: deprecated_libraries.info
+  weight: 4
+
+deprecated_libraries.contrib.jquery_ui_controlgroup:
+  title: Contrib - jQuery UI Controlgroup
+  description: Contrib Asset Library jQuery UI Controlgroup demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_controlgroup
+  parent: deprecated_libraries.info
+  weight: 5

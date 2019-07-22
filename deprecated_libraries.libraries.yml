@@ -21,3 +21,21 @@ contrib.jquery_ui_checkboxradio:
     js/jquery_ui_checkboxradio.js: {}
   dependencies:
     - jquery_ui_checkboxradio/checkboxradio
+
+core.jquery_ui_controlgroup:
+  css:
+    component:
+      css/jquery_ui_controlgroup.css: {}
+  js:
+    js/jquery_ui_controlgroup.js: {}
+  dependencies:
+    - core/jquery.ui.controlgroup
+
+contrib.jquery_ui_controlgroup:
+  css:
+    component:
+      css/jquery_ui_controlgroup.css: {}
+  js:
+    js/jquery_ui_controlgroup.js: {}
+  dependencies:
+    - jquery_ui_controlgroup/controlgroup
