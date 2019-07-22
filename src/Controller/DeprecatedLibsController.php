@@ -160,4 +160,38 @@ class DeprecatedLibsController {
     return $build;
   }
 
+  /*
+   * Core jQueryUI Progressbar asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getCoreJqueryUIProgressbar() {
+    $build['element'] = [
+      '#theme' => 'core_jquery_ui_progressbar',
+      '#title' => 'core/jquery.ui.progressbar',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/core.jquery_ui_progressbar';
+
+    return $build;
+  }
+
+  /*
+   * Contrib jQueryUI Progressbar asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getContribJqueryUIProgressbar() {
+    $build['element'] = [
+      '#theme' => 'contrib_jquery_ui_progressbar',
+      '#title' => 'jquery_ui_progressbar/progressbar',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/contrib.jquery_ui_progressbar';
+
+    return $build;
+  }
+
 }

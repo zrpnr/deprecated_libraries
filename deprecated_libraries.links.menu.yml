@@ -60,3 +60,17 @@ deprecated_libraries.contrib.jquery_ui_droppable:
   route_name: deprecated_libraries.contrib.jquery_ui_droppable
   parent: deprecated_libraries.info
   weight: 7
+
+deprecated_libraries.core.jquery_ui_progressbar:
+  title: Core (Deprecated) - jQuery UI Progressbar
+  description: Core Asset Library jQuery UI Progressbar demo.
+  route_name: deprecated_libraries.core.jquery_ui_progressbar
+  parent: deprecated_libraries.info
+  weight: 8
+
+deprecated_libraries.contrib.jquery_ui_progressbar:
+  title: Contrib - jQuery UI Progressbar
+  description: Contrib Asset Library jQuery UI Progressbar demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_progressbar
+  parent: deprecated_libraries.info
+  weight: 9

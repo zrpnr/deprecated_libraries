@@ -69,3 +69,19 @@ deprecated_libraries.contrib.jquery_ui_droppable:
     _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getContribJqueryUIDroppable'
   requirements:
     _permission: 'access content'
+
+deprecated_libraries.core.jquery_ui_progressbar:
+  path: '/deprecated/core_jquery_ui_progressbar'
+  defaults:
+    _title: 'Core (Deprecated) - jQueryUI Progressbar'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getCoreJqueryUIProgressbar'
+  requirements:
+    _permission: 'access content'
+
+deprecated_libraries.contrib.jquery_ui_progressbar:
+  path: '/deprecated/contrib_jquery_ui_progressbar'
+  defaults:
+    _title: 'Contrib jQueryUI Progressbar'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getContribJqueryUIProgressbar'
+  requirements:
+    _permission: 'access content'
