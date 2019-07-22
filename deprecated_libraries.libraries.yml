@@ -105,3 +105,15 @@ contrib.jquery_ui_selectmenu:
     js/jquery_ui_selectmenu.js: {}
   dependencies:
     - jquery_ui_selectmenu/selectmenu
+
+core.jquery_ui_slider:
+  js:
+    js/jquery_ui_slider.js: {}
+  dependencies:
+    - core/jquery.ui.slider
+
+contrib.jquery_ui_slider:
+  js:
+    js/jquery_ui_slider.js: {}
+  dependencies:
+    - jquery_ui_slider/slider

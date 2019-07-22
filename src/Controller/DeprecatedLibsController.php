@@ -262,4 +262,38 @@ class DeprecatedLibsController {
     return $build;
   }
 
+  /*
+   * Core jQueryUI Slider asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getCoreJqueryUISlider() {
+    $build['element'] = [
+      '#theme' => 'core_jquery_ui_slider',
+      '#title' => 'core/jquery.ui.slider',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/core.jquery_ui_slider';
+
+    return $build;
+  }
+
+  /*
+   * Contrib jQueryUI Slider asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getContribJqueryUISlider() {
+    $build['element'] = [
+      '#theme' => 'contrib_jquery_ui_slider',
+      '#title' => 'jquery_ui_slider/slider',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/contrib.jquery_ui_slider';
+
+    return $build;
+  }
+
 }

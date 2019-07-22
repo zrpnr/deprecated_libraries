@@ -102,3 +102,17 @@ deprecated_libraries.contrib.jquery_ui_selectmenu:
   route_name: deprecated_libraries.contrib.jquery_ui_selectmenu
   parent: deprecated_libraries.info
   weight: 13
+
+deprecated_libraries.core.jquery_ui_slider:
+  title: Core (Deprecated) - jQuery UI Slider
+  description: Core Asset Library jQuery UI Slider demo.
+  route_name: deprecated_libraries.core.jquery_ui_slider
+  parent: deprecated_libraries.info
+  weight: 14
+
+deprecated_libraries.contrib.jquery_ui_slider:
+  title: Contrib - jQuery UI Slider
+  description: Contrib Asset Library jQuery UI Slider demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_slider
+  parent: deprecated_libraries.info
+  weight: 15
