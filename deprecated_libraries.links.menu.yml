@@ -6,15 +6,30 @@ deprecated_libraries.info:
   expanded: TRUE
 
 deprecated_libraries.core.jquery_ui_accordion:
-  title: Core (Deprecated) - jQuery UI accordion
-  description: Core Asset Library jQuery UI accordion demo.
+  title: Core (Deprecated) - jQuery UI Accordion
+  description: Core Asset Library jQuery UI Accordion demo.
   route_name: deprecated_libraries.core.jquery_ui_accordion
+  parent: deprecated_libraries.info
+  weight: 0
+
+deprecated_libraries.contrib.jquery_ui_accordion:
+  title: Contrib - jQuery UI Accordion
+  description: Contrib Asset Library jQuery UI Accordion demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_accordion
   parent: deprecated_libraries.info
   weight: 1
 
-deprecated_libraries.contrib.jquery_ui_accordion:
-  title: Contrib - jQuery UI accordion
-  description: Contrib Asset Library jQuery UI accordion demo.
-  route_name: deprecated_libraries.contrib.jquery_ui_accordion
+deprecated_libraries.core.jquery_ui_checkboxradio:
+  title: Core (Deprecated) - jQuery UI Checkboxradio
+  description: Core Asset Library jQuery UI Checkboxradio demo.
+  route_name: deprecated_libraries.core.jquery_ui_checkboxradio
   parent: deprecated_libraries.info
   weight: 2
+
+deprecated_libraries.contrib.jquery_ui_checkboxradio:
+  title: Contrib - jQuery UI Checkboxradio
+  description: Contrib Asset Library jQuery UI Checkboxradio demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_checkboxradio
+  parent: deprecated_libraries.info
+  weight: 3
+

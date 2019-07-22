@@ -21,3 +21,19 @@ deprecated_libraries.contrib.jquery_ui_accordion:
     _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getContribJqueryUIAccordion'
   requirements:
     _permission: 'access content'
+
+deprecated_libraries.core.jquery_ui_checkboxradio:
+  path: '/deprecated/core_jquery_ui_checkboxradio'
+  defaults:
+    _title: 'Core (Deprecated) - jQueryUI Checkboxradio'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getCoreJqueryUICheckboxradio'
+  requirements:
+    _permission: 'access content'
+
+deprecated_libraries.contrib.jquery_ui_checkboxradio:
+  path: '/deprecated/contrib_jquery_ui_checkboxradio'
+  defaults:
+    _title: 'Contrib jQueryUI Checkboxradio'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getContribJqueryUICheckboxradio'
+  requirements:
+    _permission: 'access content'

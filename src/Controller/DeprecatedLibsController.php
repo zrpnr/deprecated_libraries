@@ -23,6 +23,7 @@ class DeprecatedLibsController {
     return 'deprecated_libraries';
   }
 
+
   /*
    * Core jQueryUI Accordion asset library.
    *
@@ -30,7 +31,6 @@ class DeprecatedLibsController {
    *   A renderable array.
    */
   public function getCoreJqueryUIAccordion() {
-
     $build['element'] = [
       '#theme' => 'core_jquery_ui_accordion',
       '#title' => 'core/jquery.ui.accordion',
@@ -48,7 +48,6 @@ class DeprecatedLibsController {
    *   A renderable array.
    */
   public function getContribJqueryUIAccordion() {
-
     $build['element'] = [
       '#theme' => 'contrib_jquery_ui_accordion',
       '#title' => 'jquery_ui_accordion/accordion',
@@ -58,4 +57,39 @@ class DeprecatedLibsController {
 
     return $build;
   }
+
+  /*
+   * Core jQueryUI Checkboxradio asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getCoreJqueryUICheckboxradio() {
+    $build['element'] = [
+      '#theme' => 'core_jquery_ui_checkboxradio',
+      '#title' => 'core/jquery.ui.checkboxradio',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/core.jquery_ui_checkboxradio';
+
+    return $build;
+  }
+
+  /*
+   * Contrib jQueryUI Checkboxradio asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getContribJqueryUICheckboxradio() {
+    $build['element'] = [
+      '#theme' => 'contrib_jquery_ui_checkboxradio',
+      '#title' => 'jquery_ui_checkboxradio/checkboxradio',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/contrib.jquery_ui_checkboxradio';
+
+    return $build;
+  }
+
 }

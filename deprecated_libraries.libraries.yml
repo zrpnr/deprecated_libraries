@@ -9,3 +9,15 @@ contrib.jquery_ui_accordion:
     js/jquery_ui_accordion.js: {}
   dependencies:
     - jquery_ui_accordion/accordion
+
+core.jquery_ui_checkboxradio:
+  js:
+    js/jquery_ui_checkboxradio.js: {}
+  dependencies:
+    - core/jquery.ui.checkboxradio
+
+contrib.jquery_ui_checkboxradio:
+  js:
+    js/jquery_ui_checkboxradio.js: {}
+  dependencies:
+    - jquery_ui_checkboxradio/checkboxradio
