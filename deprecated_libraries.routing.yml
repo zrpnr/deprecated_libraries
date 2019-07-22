@@ -53,3 +53,19 @@ deprecated_libraries.contrib.jquery_ui_controlgroup:
     _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getContribJqueryUIControlgroup'
   requirements:
     _permission: 'access content'
+
+deprecated_libraries.core.jquery_ui_droppable:
+  path: '/deprecated/core_jquery_ui_droppable'
+  defaults:
+    _title: 'Core (Deprecated) - jQueryUI Droppable'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getCoreJqueryUIDroppable'
+  requirements:
+    _permission: 'access content'
+
+deprecated_libraries.contrib.jquery_ui_droppable:
+  path: '/deprecated/contrib_jquery_ui_droppable'
+  defaults:
+    _title: 'Contrib jQueryUI Droppable'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getContribJqueryUIDroppable'
+  requirements:
+    _permission: 'access content'

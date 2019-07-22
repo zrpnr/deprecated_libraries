@@ -34,5 +34,13 @@ function deprecated_libraries_theme() {
       'template' => 'controlgroup',
       'variables' => ['title' => NULL],
     ],
+    'core_jquery_ui_droppable' => [
+      'template' => 'droppable',
+      'variables' => ['title' => NULL],
+    ],
+    'contrib_jquery_ui_droppable' => [
+      'template' => 'droppable',
+      'variables' => ['title' => NULL],
+    ],
   ];
 }

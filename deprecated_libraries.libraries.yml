@@ -39,3 +39,21 @@ contrib.jquery_ui_controlgroup:
     js/jquery_ui_controlgroup.js: {}
   dependencies:
     - jquery_ui_controlgroup/controlgroup
+
+core.jquery_ui_droppable:
+  css:
+    component:
+      css/jquery_ui_droppable.css: {}
+  js:
+    js/jquery_ui_droppable.js: {}
+  dependencies:
+    - core/jquery.ui.droppable
+
+contrib.jquery_ui_droppable:
+  css:
+    component:
+      css/jquery_ui_droppable.css: {}
+  js:
+    js/jquery_ui_droppable.js: {}
+  dependencies:
+    - jquery_ui_droppable/droppable

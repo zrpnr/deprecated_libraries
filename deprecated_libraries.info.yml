@@ -7,3 +7,5 @@ dependencies:
   - jquery_ui_accordion
   - jquery_ui_checkboxradio
   - jquery_ui_controlgroup
+  - jquery_ui_droppable
+

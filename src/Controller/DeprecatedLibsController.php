@@ -126,4 +126,38 @@ class DeprecatedLibsController {
     return $build;
   }
 
+  /*
+   * Core jQueryUI Droppable asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getCoreJqueryUIDroppable() {
+    $build['element'] = [
+      '#theme' => 'core_jquery_ui_droppable',
+      '#title' => 'core/jquery.ui.droppable',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/core.jquery_ui_droppable';
+
+    return $build;
+  }
+
+  /*
+   * Contrib jQueryUI Droppable asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getContribJqueryUIDroppable() {
+    $build['element'] = [
+      '#theme' => 'contrib_jquery_ui_droppable',
+      '#title' => 'jquery_ui_droppable/droppable',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/contrib.jquery_ui_droppable';
+
+    return $build;
+  }
+
 }
