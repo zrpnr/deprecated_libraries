@@ -88,3 +88,17 @@ deprecated_libraries.contrib.jquery_ui_selectable:
   route_name: deprecated_libraries.contrib.jquery_ui_selectable
   parent: deprecated_libraries.info
   weight: 11
+
+deprecated_libraries.core.jquery_ui_selectmenu:
+  title: Core (Deprecated) - jQuery UI Selectmenu
+  description: Core Asset Library jQuery UI Selectmenu demo.
+  route_name: deprecated_libraries.core.jquery_ui_selectmenu
+  parent: deprecated_libraries.info
+  weight: 12
+
+deprecated_libraries.contrib.jquery_ui_selectmenu:
+  title: Contrib - jQuery UI Selectmenu
+  description: Contrib Asset Library jQuery UI Selectmenu demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_selectmenu
+  parent: deprecated_libraries.info
+  weight: 13

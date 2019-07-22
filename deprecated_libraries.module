@@ -58,5 +58,13 @@ function deprecated_libraries_theme() {
       'template' => 'selectable',
       'variables' => ['title' => NULL],
     ],
+    'core_jquery_ui_selectmenu' => [
+      'template' => 'selectmenu',
+      'variables' => ['title' => NULL],
+    ],
+    'contrib_jquery_ui_selectmenu' => [
+      'template' => 'selectmenu',
+      'variables' => ['title' => NULL],
+    ],
   ];
 }

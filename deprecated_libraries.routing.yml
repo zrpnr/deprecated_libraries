@@ -101,3 +101,19 @@ deprecated_libraries.contrib.jquery_ui_selectable:
     _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getContribJqueryUISelectable'
   requirements:
     _permission: 'access content'
+
+deprecated_libraries.core.jquery_ui_selectmenu:
+  path: '/deprecated/core_jquery_ui_selectmenu'
+  defaults:
+    _title: 'Core (Deprecated) - jQueryUI Selectmenu'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getCoreJqueryUISelectmenu'
+  requirements:
+    _permission: 'access content'
+
+deprecated_libraries.contrib.jquery_ui_selectmenu:
+  path: '/deprecated/contrib_jquery_ui_selectmenu'
+  defaults:
+    _title: 'Contrib jQueryUI Selectmenu'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getContribJqueryUISelectmenu'
+  requirements:
+    _permission: 'access content'

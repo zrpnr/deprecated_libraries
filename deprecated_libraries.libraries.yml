@@ -87,3 +87,21 @@ contrib.jquery_ui_selectable:
     js/jquery_ui_selectable.js: {}
   dependencies:
     - jquery_ui_selectable/selectable
+
+core.jquery_ui_selectmenu:
+  css:
+    component:
+      css/jquery_ui_selectmenu.css: {}
+  js:
+    js/jquery_ui_selectmenu.js: {}
+  dependencies:
+    - core/jquery.ui.selectmenu
+
+contrib.jquery_ui_selectmenu:
+  css:
+    component:
+      css/jquery_ui_selectmenu.css: {}
+  js:
+    js/jquery_ui_selectmenu.js: {}
+  dependencies:
+    - jquery_ui_selectmenu/selectmenu

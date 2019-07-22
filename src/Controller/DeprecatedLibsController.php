@@ -228,4 +228,38 @@ class DeprecatedLibsController {
     return $build;
   }
 
+  /*
+   * Core jQueryUI Selectmenu asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getCoreJqueryUISelectmenu() {
+    $build['element'] = [
+      '#theme' => 'core_jquery_ui_selectmenu',
+      '#title' => 'core/jquery.ui.selectmenu',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/core.jquery_ui_selectmenu';
+
+    return $build;
+  }
+
+  /*
+   * Contrib jQueryUI Selectmenu asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getContribJqueryUISelectmenu() {
+    $build['element'] = [
+      '#theme' => 'contrib_jquery_ui_selectmenu',
+      '#title' => 'jquery_ui_selectmenu/selectmenu',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/contrib.jquery_ui_selectmenu';
+
+    return $build;
+  }
+
 }

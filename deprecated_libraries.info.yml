@@ -10,3 +10,5 @@ dependencies:
   - jquery_ui_droppable
   - jquery_ui_progressbar
   - jquery_ui_selectable
+  - jquery_ui_selectmenu
+
