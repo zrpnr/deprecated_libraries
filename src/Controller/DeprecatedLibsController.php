@@ -296,4 +296,38 @@ class DeprecatedLibsController {
     return $build;
   }
 
+  /*
+   * Core jQueryUI Spinner asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getCoreJqueryUISpinner() {
+    $build['element'] = [
+      '#theme' => 'core_jquery_ui_spinner',
+      '#title' => 'core/jquery.ui.spinner',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/core.jquery_ui_spinner';
+
+    return $build;
+  }
+
+  /*
+   * Contrib jQueryUI Spinner asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getContribJqueryUISpinner() {
+    $build['element'] = [
+      '#theme' => 'contrib_jquery_ui_spinner',
+      '#title' => 'jquery_ui_spinner/spinner',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/contrib.jquery_ui_spinner';
+
+    return $build;
+  }
+
 }

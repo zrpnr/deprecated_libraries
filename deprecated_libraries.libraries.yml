@@ -117,3 +117,15 @@ contrib.jquery_ui_slider:
     js/jquery_ui_slider.js: {}
   dependencies:
     - jquery_ui_slider/slider
+
+core.jquery_ui_spinner:
+  js:
+    js/jquery_ui_spinner.js: {}
+  dependencies:
+    - core/jquery.ui.spinner
+
+contrib.jquery_ui_spinner:
+  js:
+    js/jquery_ui_spinner.js: {}
+  dependencies:
+    - jquery_ui_spinner/spinner

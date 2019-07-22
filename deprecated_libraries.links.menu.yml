@@ -116,3 +116,17 @@ deprecated_libraries.contrib.jquery_ui_slider:
   route_name: deprecated_libraries.contrib.jquery_ui_slider
   parent: deprecated_libraries.info
   weight: 15
+
+deprecated_libraries.core.jquery_ui_spinner:
+  title: Core (Deprecated) - jQuery UI Spinner
+  description: Core Asset Library jQuery UI Spinner demo.
+  route_name: deprecated_libraries.core.jquery_ui_spinner
+  parent: deprecated_libraries.info
+  weight: 16
+
+deprecated_libraries.contrib.jquery_ui_spinner:
+  title: Contrib - jQuery UI Spinner
+  description: Contrib Asset Library jQuery UI Spinner demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_spinner
+  parent: deprecated_libraries.info
+  weight: 17
