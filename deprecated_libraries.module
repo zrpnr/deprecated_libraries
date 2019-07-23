@@ -90,5 +90,13 @@ function deprecated_libraries_theme() {
       'template' => 'tooltip',
       'variables' => ['title' => NULL],
     ],
+    'core_jquery_ui_effects' => [
+      'template' => 'effects',
+      'variables' => ['title' => NULL],
+    ],
+    'contrib_jquery_ui_effects' => [
+      'template' => 'effects',
+      'variables' => ['title' => NULL],
+    ],
   ];
 }

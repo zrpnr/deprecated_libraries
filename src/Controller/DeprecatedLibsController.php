@@ -364,4 +364,39 @@ class DeprecatedLibsController {
     return $build;
   }
 
+
+  /*
+   * Core jQueryUI Effects asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getCoreJqueryUIEffects() {
+    $build['element'] = [
+      '#theme' => 'core_jquery_ui_effects',
+      '#title' => 'core/jquery.ui.effects',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/core.jquery_ui_effects';
+
+    return $build;
+  }
+
+  /*
+   * Contrib jQueryUI Effects asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getContribJqueryUIEffects() {
+    $build['element'] = [
+      '#theme' => 'contrib_jquery_ui_effects',
+      '#title' => 'jquery_ui_effects/effects',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/contrib.jquery_ui_effects';
+
+    return $build;
+  }
+
 }

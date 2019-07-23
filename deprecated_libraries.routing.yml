@@ -165,3 +165,19 @@ deprecated_libraries.contrib.jquery_ui_tooltip:
     _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getContribJqueryUITooltip'
   requirements:
     _permission: 'access content'
+
+deprecated_libraries.core.jquery_ui_effects:
+  path: '/deprecated/core_jquery_ui_effects'
+  defaults:
+    _title: 'Core (Deprecated) - jQueryUI Effects'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getCoreJqueryUIEffects'
+  requirements:
+    _permission: 'access content'
+
+deprecated_libraries.contrib.jquery_ui_effects:
+  path: '/deprecated/contrib_jquery_ui_effects'
+  defaults:
+    _title: 'Contrib jQueryUI Effects'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getContribJqueryUIEffects'
+  requirements:
+    _permission: 'access content'
