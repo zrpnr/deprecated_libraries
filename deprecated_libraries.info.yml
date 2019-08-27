@@ -3,7 +3,9 @@ description: Demonstrates use of Contrib replacements for deprecated Core Asset 
 type: module
 package: 'Example modules'
 core: 8.x
+configure: deprecated_libraries.info
 dependencies:
+  - examples
   - jquery_ui_accordion
   - jquery_ui_checkboxradio
   - jquery_ui_controlgroup
