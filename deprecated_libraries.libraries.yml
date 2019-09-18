@@ -143,6 +143,18 @@ contrib.jquery_ui_spinner:
   dependencies:
     - jquery_ui_spinner/spinner
 
+core.jquery_ui_tabs:
+  js:
+    js/jquery_ui_tabs.js: {}
+  dependencies:
+    - core/jquery.ui.tabs
+
+contrib.jquery_ui_tabs:
+  js:
+    js/jquery_ui_tabs.js: {}
+  dependencies:
+    - jquery_ui_tabs/tabs
+
 core.jquery_ui_tooltip:
   js:
     js/jquery_ui_tooltip.js: {}

@@ -187,19 +187,19 @@ deprecated_libraries.contrib.jquery_ui_spinner:
   parent: deprecated_libraries.info
   weight: 25
 
-#deprecated_libraries.core.jquery_ui_tabs:
-#  title: Core (Deprecated) - jQuery UI Tabs
-#  description: Core Asset Library jQuery UI Tabs demo.
-#  route_name: deprecated_libraries.core.jquery_ui_tabs
-#  parent: deprecated_libraries.info
-#  weight: 26
-#
-#deprecated_libraries.contrib.jquery_ui_tabs:
-#  title: Contrib - jQuery UI Tabs
-#  description: Contrib Asset Library jQuery UI Tabs demo.
-#  route_name: deprecated_libraries.contrib.jquery_ui_tabs
-#  parent: deprecated_libraries.info
-#  weight: 27
+deprecated_libraries.core.jquery_ui_tabs:
+  title: Core (Deprecated) - jQuery UI Tabs
+  description: Core Asset Library jQuery UI Tabs demo.
+  route_name: deprecated_libraries.core.jquery_ui_tabs
+  parent: deprecated_libraries.info
+  weight: 26
+
+deprecated_libraries.contrib.jquery_ui_tabs:
+  title: Contrib - jQuery UI Tabs
+  description: Contrib Asset Library jQuery UI Tabs demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_tabs
+  parent: deprecated_libraries.info
+  weight: 27
 
 deprecated_libraries.core.jquery_ui_tooltip:
   title: Core (Deprecated) - jQuery UI Tooltip

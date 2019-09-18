@@ -166,6 +166,22 @@ deprecated_libraries.contrib.jquery_ui_spinner:
   requirements:
     _permission: 'access content'
 
+deprecated_libraries.core.jquery_ui_tabs:
+  path: '/deprecated/core_jquery_ui_tabs'
+  defaults:
+    _title: 'Core (Deprecated) - jQueryUI Tabs'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getCoreJqueryUITabs'
+  requirements:
+    _permission: 'access content'
+
+deprecated_libraries.contrib.jquery_ui_tabs:
+  path: '/deprecated/contrib_jquery_ui_tabs'
+  defaults:
+    _title: 'Contrib jQueryUI Tabs'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getContribJqueryUITabs'
+  requirements:
+    _permission: 'access content'
+
 deprecated_libraries.core.jquery_ui_tooltip:
   path: '/deprecated/core_jquery_ui_tooltip'
   defaults:

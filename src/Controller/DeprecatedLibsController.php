@@ -365,6 +365,40 @@ class DeprecatedLibsController {
   }
 
   /*
+   * Core jQueryUI Tabs asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getCoreJqueryUITabs() {
+    $build['element'] = [
+      '#theme' => 'core_jquery_ui_tabs',
+      '#title' => 'core/jquery.ui.tabs',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/core.jquery_ui_tabs';
+
+    return $build;
+  }
+
+  /*
+   * Contrib jQueryUI Tabs asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getContribJqueryUITabs() {
+    $build['element'] = [
+      '#theme' => 'contrib_jquery_ui_tabs',
+      '#title' => 'jquery_ui_tabs/tabs',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/contrib.jquery_ui_tabs';
+
+    return $build;
+  }
+
+  /*
    * Core jQueryUI Tooltip asset library.
    *
    * @return array
