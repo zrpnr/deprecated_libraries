@@ -10,6 +10,19 @@ contrib.jquery_ui_accordion:
   dependencies:
     - jquery_ui_accordion/accordion
 
+core.jquery_ui_button:
+  js:
+    js/jquery_ui_button.js: {}
+  dependencies:
+    - core/jquery.ui.button
+
+contrib.jquery_ui_button:
+  js:
+    js/jquery_ui_button.js: {}
+  dependencies:
+    - jquery_ui_button/button
+
+
 core.jquery_ui_checkboxradio:
   js:
     js/jquery_ui_checkboxradio.js: {}

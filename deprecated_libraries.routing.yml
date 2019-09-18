@@ -22,6 +22,22 @@ deprecated_libraries.contrib.jquery_ui_accordion:
   requirements:
     _permission: 'access content'
 
+deprecated_libraries.core.jquery_ui_button:
+  path: '/deprecated/core_jquery_ui_button'
+  defaults:
+    _title: 'Core (Deprecated) - jQueryUI Button'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getCoreJqueryUIButton'
+  requirements:
+    _permission: 'access content'
+
+deprecated_libraries.contrib.jquery_ui_button:
+  path: '/deprecated/contrib_jquery_ui_button'
+  defaults:
+    _title: 'Contrib jQueryUI Button'
+    _controller: 'Drupal\deprecated_libraries\Controller\DeprecatedLibsController::getContribJqueryUIButton'
+  requirements:
+    _permission: 'access content'
+
 deprecated_libraries.core.jquery_ui_checkboxradio:
   path: '/deprecated/core_jquery_ui_checkboxradio'
   defaults:

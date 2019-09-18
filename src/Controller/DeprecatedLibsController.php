@@ -59,6 +59,40 @@ class DeprecatedLibsController {
   }
 
   /*
+   * Core jQueryUI Button asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getCoreJqueryUIButton() {
+    $build['element'] = [
+      '#theme' => 'core_jquery_ui_button',
+      '#title' => 'core/jquery.ui.button',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/core.jquery_ui_button';
+
+    return $build;
+  }
+
+  /*
+   * Contrib jQueryUI Button asset library.
+   *
+   * @return array
+   *   A renderable array.
+   */
+  public function getContribJqueryUIButton() {
+    $build['element'] = [
+      '#theme' => 'contrib_jquery_ui_button',
+      '#title' => 'jquery_ui_button/button',
+    ];
+
+    $build['element']['#attached']['library'][] = 'deprecated_libraries/contrib.jquery_ui_button';
+
+    return $build;
+  }
+
+  /*
    * Core jQueryUI Checkboxradio asset library.
    *
    * @return array

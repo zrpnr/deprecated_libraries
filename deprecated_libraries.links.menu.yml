@@ -19,142 +19,199 @@ deprecated_libraries.contrib.jquery_ui_accordion:
   parent: deprecated_libraries.info
   weight: 1
 
+deprecated_libraries.core.jquery_ui_button:
+  title: Core (Deprecated) - jQuery UI Button
+  description: Core Asset Library jQuery UI Button demo.
+  route_name: deprecated_libraries.core.jquery_ui_button
+  parent: deprecated_libraries.info
+  weight: 2
+
+deprecated_libraries.contrib.jquery_ui_button:
+  title: Contrib - jQuery UI Button
+  description: Contrib Asset Library jQuery UI Button demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_button
+  parent: deprecated_libraries.info
+  weight: 3
+
 deprecated_libraries.core.jquery_ui_checkboxradio:
   title: Core (Deprecated) - jQuery UI Checkboxradio
   description: Core Asset Library jQuery UI Checkboxradio demo.
   route_name: deprecated_libraries.core.jquery_ui_checkboxradio
   parent: deprecated_libraries.info
-  weight: 2
+  weight: 4
 
 deprecated_libraries.contrib.jquery_ui_checkboxradio:
   title: Contrib - jQuery UI Checkboxradio
   description: Contrib Asset Library jQuery UI Checkboxradio demo.
   route_name: deprecated_libraries.contrib.jquery_ui_checkboxradio
   parent: deprecated_libraries.info
-  weight: 3
+  weight: 5
 
 deprecated_libraries.core.jquery_ui_controlgroup:
   title: Core (Deprecated) - jQuery UI Controlgroup
   description: Core Asset Library jQuery UI Controlgroup demo.
   route_name: deprecated_libraries.core.jquery_ui_controlgroup
   parent: deprecated_libraries.info
-  weight: 4
+  weight: 6
 
 deprecated_libraries.contrib.jquery_ui_controlgroup:
   title: Contrib - jQuery UI Controlgroup
   description: Contrib Asset Library jQuery UI Controlgroup demo.
   route_name: deprecated_libraries.contrib.jquery_ui_controlgroup
   parent: deprecated_libraries.info
-  weight: 5
+  weight: 7
+
+#deprecated_libraries.core.jquery_ui_draggable:
+#  title: Core (Deprecated) - jQuery UI Draggable
+#  description: Core Asset Library jQuery UI Draggable demo.
+#  route_name: deprecated_libraries.core.jquery_ui_draggable
+#  parent: deprecated_libraries.info
+#  weight: 8
+#
+#deprecated_libraries.contrib.jquery_ui_draggable:
+#  title: Contrib - jQuery UI Draggable
+#  description: Contrib Asset Library jQuery UI Draggable demo.
+#  route_name: deprecated_libraries.contrib.jquery_ui_draggable
+#  parent: deprecated_libraries.info
+#  weight: 9
 
 deprecated_libraries.core.jquery_ui_droppable:
   title: Core (Deprecated) - jQuery UI Droppable
   description: Core Asset Library jQuery UI Droppable demo.
   route_name: deprecated_libraries.core.jquery_ui_droppable
   parent: deprecated_libraries.info
-  weight: 6
+  weight: 10
 
 deprecated_libraries.contrib.jquery_ui_droppable:
   title: Contrib - jQuery UI Droppable
   description: Contrib Asset Library jQuery UI Droppable demo.
   route_name: deprecated_libraries.contrib.jquery_ui_droppable
   parent: deprecated_libraries.info
-  weight: 7
-
-deprecated_libraries.core.jquery_ui_progressbar:
-  title: Core (Deprecated) - jQuery UI Progressbar
-  description: Core Asset Library jQuery UI Progressbar demo.
-  route_name: deprecated_libraries.core.jquery_ui_progressbar
-  parent: deprecated_libraries.info
-  weight: 8
-
-deprecated_libraries.contrib.jquery_ui_progressbar:
-  title: Contrib - jQuery UI Progressbar
-  description: Contrib Asset Library jQuery UI Progressbar demo.
-  route_name: deprecated_libraries.contrib.jquery_ui_progressbar
-  parent: deprecated_libraries.info
-  weight: 9
-
-deprecated_libraries.core.jquery_ui_selectable:
-  title: Core (Deprecated) - jQuery UI Selectable
-  description: Core Asset Library jQuery UI Selectable demo.
-  route_name: deprecated_libraries.core.jquery_ui_selectable
-  parent: deprecated_libraries.info
-  weight: 10
-
-deprecated_libraries.contrib.jquery_ui_selectable:
-  title: Contrib - jQuery UI Selectable
-  description: Contrib Asset Library jQuery UI Selectable demo.
-  route_name: deprecated_libraries.contrib.jquery_ui_selectable
-  parent: deprecated_libraries.info
   weight: 11
-
-deprecated_libraries.core.jquery_ui_selectmenu:
-  title: Core (Deprecated) - jQuery UI Selectmenu
-  description: Core Asset Library jQuery UI Selectmenu demo.
-  route_name: deprecated_libraries.core.jquery_ui_selectmenu
-  parent: deprecated_libraries.info
-  weight: 12
-
-deprecated_libraries.contrib.jquery_ui_selectmenu:
-  title: Contrib - jQuery UI Selectmenu
-  description: Contrib Asset Library jQuery UI Selectmenu demo.
-  route_name: deprecated_libraries.contrib.jquery_ui_selectmenu
-  parent: deprecated_libraries.info
-  weight: 13
-
-deprecated_libraries.core.jquery_ui_slider:
-  title: Core (Deprecated) - jQuery UI Slider
-  description: Core Asset Library jQuery UI Slider demo.
-  route_name: deprecated_libraries.core.jquery_ui_slider
-  parent: deprecated_libraries.info
-  weight: 14
-
-deprecated_libraries.contrib.jquery_ui_slider:
-  title: Contrib - jQuery UI Slider
-  description: Contrib Asset Library jQuery UI Slider demo.
-  route_name: deprecated_libraries.contrib.jquery_ui_slider
-  parent: deprecated_libraries.info
-  weight: 15
-
-deprecated_libraries.core.jquery_ui_spinner:
-  title: Core (Deprecated) - jQuery UI Spinner
-  description: Core Asset Library jQuery UI Spinner demo.
-  route_name: deprecated_libraries.core.jquery_ui_spinner
-  parent: deprecated_libraries.info
-  weight: 16
-
-deprecated_libraries.contrib.jquery_ui_spinner:
-  title: Contrib - jQuery UI Spinner
-  description: Contrib Asset Library jQuery UI Spinner demo.
-  route_name: deprecated_libraries.contrib.jquery_ui_spinner
-  parent: deprecated_libraries.info
-  weight: 17
-
-deprecated_libraries.core.jquery_ui_tooltip:
-  title: Core (Deprecated) - jQuery UI Tooltip
-  description: Core Asset Library jQuery UI Tooltip demo.
-  route_name: deprecated_libraries.core.jquery_ui_tooltip
-  parent: deprecated_libraries.info
-  weight: 18
-
-deprecated_libraries.contrib.jquery_ui_tooltip:
-  title: Contrib - jQuery UI Tooltip
-  description: Contrib Asset Library jQuery UI Tooltip demo.
-  route_name: deprecated_libraries.contrib.jquery_ui_tooltip
-  parent: deprecated_libraries.info
-  weight: 19
 
 deprecated_libraries.core.jquery_ui_effects:
   title: Core (Deprecated) - jQuery UI Effects
   description: Core Asset Library jQuery UI Effects demo.
   route_name: deprecated_libraries.core.jquery_ui_effects
   parent: deprecated_libraries.info
-  weight: 20
+  weight: 12
 
 deprecated_libraries.contrib.jquery_ui_effects:
   title: Contrib - jQuery UI Effects
   description: Contrib Asset Library jQuery UI Effects demo.
   route_name: deprecated_libraries.contrib.jquery_ui_effects
   parent: deprecated_libraries.info
+  weight: 13
+
+#deprecated_libraries.core.jquery_ui_menu:
+#  title: Core (Deprecated) - jQuery UI Menu
+#  description: Core Asset Library jQuery UI Menu demo.
+#  route_name: deprecated_libraries.core.jquery_ui_menu
+#  parent: deprecated_libraries.info
+#  weight: 14
+#
+#deprecated_libraries.contrib.jquery_ui_menu:
+#  title: Contrib - jQuery UI Menu
+#  description: Contrib Asset Library jQuery UI Menu demo.
+#  route_name: deprecated_libraries.contrib.jquery_ui_menu
+#  parent: deprecated_libraries.info
+#  weight: 15
+
+deprecated_libraries.core.jquery_ui_progressbar:
+  title: Core (Deprecated) - jQuery UI Progressbar
+  description: Core Asset Library jQuery UI Progressbar demo.
+  route_name: deprecated_libraries.core.jquery_ui_progressbar
+  parent: deprecated_libraries.info
+  weight: 16
+
+deprecated_libraries.contrib.jquery_ui_progressbar:
+  title: Contrib - jQuery UI Progressbar
+  description: Contrib Asset Library jQuery UI Progressbar demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_progressbar
+  parent: deprecated_libraries.info
+  weight: 17
+
+deprecated_libraries.core.jquery_ui_selectable:
+  title: Core (Deprecated) - jQuery UI Selectable
+  description: Core Asset Library jQuery UI Selectable demo.
+  route_name: deprecated_libraries.core.jquery_ui_selectable
+  parent: deprecated_libraries.info
+  weight: 18
+
+deprecated_libraries.contrib.jquery_ui_selectable:
+  title: Contrib - jQuery UI Selectable
+  description: Contrib Asset Library jQuery UI Selectable demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_selectable
+  parent: deprecated_libraries.info
+  weight: 19
+
+deprecated_libraries.core.jquery_ui_selectmenu:
+  title: Core (Deprecated) - jQuery UI Selectmenu
+  description: Core Asset Library jQuery UI Selectmenu demo.
+  route_name: deprecated_libraries.core.jquery_ui_selectmenu
+  parent: deprecated_libraries.info
+  weight: 20
+
+deprecated_libraries.contrib.jquery_ui_selectmenu:
+  title: Contrib - jQuery UI Selectmenu
+  description: Contrib Asset Library jQuery UI Selectmenu demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_selectmenu
+  parent: deprecated_libraries.info
   weight: 21
+
+deprecated_libraries.core.jquery_ui_slider:
+  title: Core (Deprecated) - jQuery UI Slider
+  description: Core Asset Library jQuery UI Slider demo.
+  route_name: deprecated_libraries.core.jquery_ui_slider
+  parent: deprecated_libraries.info
+  weight: 22
+
+deprecated_libraries.contrib.jquery_ui_slider:
+  title: Contrib - jQuery UI Slider
+  description: Contrib Asset Library jQuery UI Slider demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_slider
+  parent: deprecated_libraries.info
+  weight: 23
+
+deprecated_libraries.core.jquery_ui_spinner:
+  title: Core (Deprecated) - jQuery UI Spinner
+  description: Core Asset Library jQuery UI Spinner demo.
+  route_name: deprecated_libraries.core.jquery_ui_spinner
+  parent: deprecated_libraries.info
+  weight: 24
+
+deprecated_libraries.contrib.jquery_ui_spinner:
+  title: Contrib - jQuery UI Spinner
+  description: Contrib Asset Library jQuery UI Spinner demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_spinner
+  parent: deprecated_libraries.info
+  weight: 25
+
+#deprecated_libraries.core.jquery_ui_tabs:
+#  title: Core (Deprecated) - jQuery UI Tabs
+#  description: Core Asset Library jQuery UI Tabs demo.
+#  route_name: deprecated_libraries.core.jquery_ui_tabs
+#  parent: deprecated_libraries.info
+#  weight: 26
+#
+#deprecated_libraries.contrib.jquery_ui_tabs:
+#  title: Contrib - jQuery UI Tabs
+#  description: Contrib Asset Library jQuery UI Tabs demo.
+#  route_name: deprecated_libraries.contrib.jquery_ui_tabs
+#  parent: deprecated_libraries.info
+#  weight: 27
+
+deprecated_libraries.core.jquery_ui_tooltip:
+  title: Core (Deprecated) - jQuery UI Tooltip
+  description: Core Asset Library jQuery UI Tooltip demo.
+  route_name: deprecated_libraries.core.jquery_ui_tooltip
+  parent: deprecated_libraries.info
+  weight: 28
+
+deprecated_libraries.contrib.jquery_ui_tooltip:
+  title: Contrib - jQuery UI Tooltip
+  description: Contrib Asset Library jQuery UI Tooltip demo.
+  route_name: deprecated_libraries.contrib.jquery_ui_tooltip
+  parent: deprecated_libraries.info
+  weight: 29
+
